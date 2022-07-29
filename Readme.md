@@ -1,7 +1,7 @@
 # Личный проект «Седона» 
 
 * Студент: [Денис Борисов](https://up.htmlacademy.ru/adaptive/26/user/1997001).
-* Наставник: [Михаил Данюшин] (https://htmlacademy.ru/profile/id225742).
+* Наставник: [Михаил Данюшин](https://htmlacademy.ru/profile/id225742).
 
 ---
 
