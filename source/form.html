@@ -3,14 +3,16 @@
 
 <head>
   <meta charset="utf-8">
-  <title>HTML Academy: Пинк</title>
+  <title>HTML Academy: Седона</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <!--Основная навигация-->
+  <div class="page-wrapper">
+    <!--Основная навигация-->
   <header class="header">
     <a class="main-header__logo" href="#">
-      <img src="">
+      <img src="./img/svg/logo-header.svg" width="185px" height="96px" alt="логотип седоны">
     </a>
     <nav class="header-nav nav">
       <button class="header-nav__toggle" type="button">
@@ -35,10 +37,13 @@
   <main>
     <section class="intro">
       <h1 class="visually-hidden">Отзыв о "Седоне"</h1>
+      <div class="intro__content">
+        <img class="intro__images" src="/source/img/svg/SEDONA.svg" alt="седона">
+      </div>
       <div class="intro__wrapper">
         <h2 class="intro__title">Оставьте свой отзыв</h2>
-        <b class="intro__text">Помогите нашим отелям стать лучше! Оставьте отзыв о них,а также о посещенных вами
-          достопримечательностях</b>
+        <p class="intro__text">Помогите нашим отелям стать лучше! Оставьте отзыв о них,а также о посещенных вами
+          достопримечательностях</p>
       </div>
     </section>
     <!--Данные пользвателя-->
@@ -50,21 +55,24 @@
           <ul class="form__list">
             <li class="form__input-wrapper">
               <label for="input-text__name-label" class="form__label">
-                <span class="user-data">имя*:</span>
+                <span class="form__user-data">имя*:</span>
+                <br>
                 <input id="input-text__name-label" class="form__input-text" type="text" name="name"
                   placeholder="Введите ваше имя *" required>
               </label>
             </li>
             <li class="form__input-wrapper">
               <label for="input-text__surname-label" class="form__label">
-                <span class="user-data">Фамилия*:</span>
+                <span class="form__user-data">Фамилия*:</span>
+                <br>
                 <input id="input-text__surname-label" class="form__input-text" type="text" name="surname"
                   placeholder="Укажите фамилию *" required>
               </label>
             </li>
             <li class="form__input-wrapper">
               <label for="input-text__patronymic-label" class="form__label">
-                <span class="user-data">отчество*:</span>
+                <span class="form__user-data">отчество*:</span>
+                <br>
                 <input id="input-text__patronymic-label" class="form__input-text" type="text" name="patronymic"
                   placeholder="Ну и отчество тоже">
               </label>
@@ -75,11 +83,13 @@
         <fieldset class="form__fieldset">
           <legend class="form__legend">контактная информация</legend>
           <label class="form__label">
-            <span class="text-signature">контактный телефон*:</span>
+            <span class="form__user-data">контактный телефон*:</span>
+            <br>
             <input class="form__input-text" type="tel" name="number" placeholder="Номер, пожалуйста">
           </label>
           <label class="form__label">
-            <span class="text-signature">электронная почта*:</span>
+            <span class="form__user-data">электронная почта*:</span>
+            <br>
             <input class="form__input-text" type="email" name="mail" placeholder="Введите почту*">
           </label>
         </fieldset>
@@ -189,4 +199,5 @@
       </div>
     </div>
   </footer>
+  </div>
 </body>
