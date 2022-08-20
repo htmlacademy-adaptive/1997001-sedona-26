@@ -1,0 +1,27 @@
+.presentation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.presentation__title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.presentation__text{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  text-align: center;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.presentation__container{
+  margin-top: 38px;
+}

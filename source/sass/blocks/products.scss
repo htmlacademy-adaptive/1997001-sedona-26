@@ -1,0 +1,15 @@
+
+.products{
+  display: flex;
+  align-items: center;
+}
+
+.products__item:not(:last-child){
+  margin-bottom: 50px;
+}
+
+.products__wrapper{
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}

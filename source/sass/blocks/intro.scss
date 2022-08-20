@@ -1,0 +1,24 @@
+.intro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 42px;
+}
+
+.intro__content{
+  background-color: #000000;
+}
+
+.intro__images{
+  margin: 0 auto;
+}
+
+.intro__title{
+  margin-top: 38px;
+}
+
+.intro__text{
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
