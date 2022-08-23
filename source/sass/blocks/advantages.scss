@@ -1,5 +1,5 @@
 .advantages__list{
-  list-style: none;
+  @include list-style;
   display: flex;
   flex-wrap: wrap;
   padding: 0;

@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  list-style: none;
+  @include list-style;
   padding: 0;
   background-color: #81B3D2;
   width: 100%;

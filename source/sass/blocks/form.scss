@@ -1,9 +1,9 @@
-.form{
+.form {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.form__fieldset{
+.form__fieldset {
   border: none;
   padding: 0;
   display: flex;
@@ -11,7 +11,7 @@
   margin-bottom: 64px;
 }
 
-.form__legend{
+.form__legend {
   text-align: center;
   font-style: normal;
   font-weight: 700;
@@ -19,14 +19,14 @@
   line-height: 26px;
 }
 
-.form__list{
-  list-style: none;
+.form__list {
+  @include list-style;
   display: flex;
   flex-direction: column;
   padding: 0;
 }
 
-.form__user-data{
+.form__user-data {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -34,6 +34,10 @@
   color: #333333;
 }
 
-.form__list-impression{
-  list-style: none;
+.form__list-impression {
+  @include list-style;
+}
+
+.form__list-checkbox {
+  @include list-style;
 }
