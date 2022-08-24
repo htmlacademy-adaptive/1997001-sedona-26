@@ -1,0 +1,41 @@
+.intro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 42px;
+}
+
+.intro__content{
+  background-color: #000000;
+  background-position: center;
+  background-image: url("../img/background/Frame.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.intro__wrapper{
+  text-align: center;
+}
+
+.intro__images{
+  margin: 0 auto;
+}
+
+.intro__title{
+  margin-top: 38px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.intro__text{
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+}

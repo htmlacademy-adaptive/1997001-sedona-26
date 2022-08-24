@@ -1,0 +1,5 @@
+.social__list{
+  padding: 0;
+  @include list-style;
+  display: flex;
+}

@@ -1,0 +1,32 @@
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: block;
+  user-select: none;
+}
+
+body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100%;
+  font-family: "PT Sans", "Arial", sans-serif;
+  color: #333333;
+  background-color: #ffffff;
+  text-transform: uppercase;
+}
+

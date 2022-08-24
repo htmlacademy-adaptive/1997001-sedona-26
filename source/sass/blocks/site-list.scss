@@ -1,0 +1,26 @@
+.site-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include list-style;
+  padding: 0;
+  background-color: #81B3D2;
+  width: 100%;
+  text-align: center;
+}
+
+.site-list__item{
+  padding-top: 17px;
+  padding-bottom: 12px;
+}
+
+.site-list__link{
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 18px 25px 20px 18px;
+}
