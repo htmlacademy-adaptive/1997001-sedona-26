@@ -27,6 +27,13 @@
 
 @media (min-width: $tablet-width) {
   .site-list {
-    width: 570px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: none;
+  }
+
+  .site-list__link {
+    color: #000000;
   }
 }

@@ -15,24 +15,26 @@
       <a class="header__logo" href="#">
         <img src="./img/svg/logo-header.svg" width="185" height="96" alt="логотип седоны">
       </a>
-      <nav class="header-nav nav">
+      <nav class="header-nav">
         <button class="header-nav__toggle" type="button">
           <span class="visually-hidden">открыть меню</span>
         </button>
-        <ul class="header-nav__list site-list">
-          <li class="site-list__item site-list__item--active">
-            <a class="site-list__link">Главная</a>
-          </li>
-          <li class="site-list__item">
-            <a class="site-list__link" href="photo.html">фото и видео</a>
-          </li>
-          <li class="site-list__item">
-            <a class="site-list__link" href="form.html">форма отзыва</a>
-          </li>
-          <li class="site-list__item">
-            <a class="site-list__link" href="https://htmlacademy.ru/study">html academy</a>
-          </li>
-        </ul>
+        <div class="header-nav__wrapper">
+          <ul class="header-nav__list site-list">
+            <li class="site-list__item site-list__item--active">
+              <a class="site-list__link">Главная</a>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__link" href="photo.html">фото и видео</a>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__link" href="form.html">форма отзыва</a>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__link" href="https://htmlacademy.ru/study">html academy</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
     <!-- Основное содержимое страницы -->
@@ -40,7 +42,7 @@
       <h1 class="visually-hidden">Городок «Седона»</h1>
       <section class="title-logo">
         <div class="title-logo__background">
-          <img src="img/svg/welcome.svg" width="282" height="214" alt="добро пожаловать">
+          <img class="title-logo__img" src="img/svg/welcome.svg" width="282" height="214" alt="добро пожаловать">
         </div>
         <div class="title-logo__wrapper">
           <h2 class="title-logo__welcome-title">седона-небольшой городок в аризоне,заслуживающий большего!</h2>
@@ -118,7 +120,7 @@
     <!--Подвал-->
     <footer class="main-footer">
       <div class="main-footer__wrapper">
-        <a class="link-visit">#visitsedona</a>
+        <a class="main-footer__link-visit">#visitsedona</a>
         <div class="main-footer__social social">
           <ul class="social__list">
             <li class="social__item">

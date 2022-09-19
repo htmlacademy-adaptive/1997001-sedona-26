@@ -34,3 +34,21 @@
   font-style: normal;
   font-weight: 400;
 }
+
+@media (min-width: $tablet-width) {
+  .title-logo__background {
+    width: 100%;
+    background-image: url("../img/background/frame-tablet.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+}
+
+@media (min-width: $desktop-width) {
+  .title-logo__background {
+    background-image: url("../img/background/frame-desktop.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+}

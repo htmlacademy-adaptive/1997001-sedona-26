@@ -1,9 +1,8 @@
 
 @media (min-width: $tablet-width) {
-  .header-nav__list {
+  .header-nav__wrapper {
     display: flex;
     justify-content: space-between;
-    width: 640px;
   }
 
   .header-nav__toggle {
