@@ -34,10 +34,66 @@
   color: #333333;
 }
 
+.form__radio-impression {
+  color: #000000;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: none;
+}
+
+.form__checkbox-text {
+  color: #000000;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: none;
+}
+
 .form__list-impression {
   @include list-style;
+  padding: 0
 }
 
 .form__list-checkbox {
   @include list-style;
+  padding: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .form__wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .form__list-impression {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .form__list-checkbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    align-items: center;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .form__wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .form__list-impression {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .form__list-checkbox {
+    display: flex;
+    justify-content: space-between;
+  }
 }

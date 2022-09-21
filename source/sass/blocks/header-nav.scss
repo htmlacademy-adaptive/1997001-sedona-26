@@ -1,0 +1,11 @@
+
+@media (min-width: $tablet-width) {
+  .header-nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-nav__toggle {
+    display: none;
+  }
+}

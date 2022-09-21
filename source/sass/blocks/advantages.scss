@@ -26,3 +26,24 @@
   text-align: center;
   color: #333333;
 }
+
+@media (min-width: $tablet-width) {
+  .advantages__list {
+    flex-wrap: wrap;
+  }
+
+  .advantages__item {
+    width: 256px;
+    min-height: 256px;
+  }
+
+  .advantages__item--item {
+    width: 256px;
+    min-height: 256px;
+  }
+
+  .advantages__item--items {
+    width: 256px;
+    min-height: 256px;
+  }
+}
