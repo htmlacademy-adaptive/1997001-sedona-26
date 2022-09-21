@@ -39,3 +39,23 @@
   line-height: 21px;
   color: #333333;
 }
+
+@media (min-width: $tablet-width) {
+  .intro__content {
+    width: 100%;
+    background-image: url("../img/background/frame-tablet.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 95px;
+    padding-bottom: 117px;
+  }
+
+}
+
+@media (min-width: $desktop-width) {
+  .intro__content {
+    background-image: url("../img/background/frame-desktop.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+}

@@ -50,49 +50,51 @@
     <section class="form-container">
       <h2 class="visually-hidden">Поделитесь впечатлениями</h2>
       <form class="form-container__form-page form" action="https://echo.htmlacademy.ru/" method="post">
-        <fieldset class="form__fieldset">
-          <legend class="form__legend">Представьтесь:</legend>
-          <ul class="form__list">
-            <li class="form__input-wrapper">
-              <label for="input-text__name-label" class="form__label">
-                <span class="form__user-data">имя*:</span>
-                <br>
-                <input id="input-text__name-label" class="form__input-text" type="text" name="name"
-                  placeholder="Введите ваше имя *" required>
-              </label>
-            </li>
-            <li class="form__input-wrapper">
-              <label for="input-text__surname-label" class="form__label">
-                <span class="form__user-data">Фамилия*:</span>
-                <br>
-                <input id="input-text__surname-label" class="form__input-text" type="text" name="surname"
-                  placeholder="Укажите фамилию *" required>
-              </label>
-            </li>
-            <li class="form__input-wrapper">
-              <label for="input-text__patronymic-label" class="form__label">
-                <span class="form__user-data">отчество*:</span>
-                <br>
-                <input id="input-text__patronymic-label" class="form__input-text" type="text" name="patronymic"
-                  placeholder="Ну и отчество тоже">
-              </label>
-            </li>
-          </ul>
-        </fieldset>
-        <!--Контактная пользвателя-->
-        <fieldset class="form__fieldset">
-          <legend class="form__legend">контактная информация</legend>
-          <label class="form__label">
-            <span class="form__user-data">контактный телефон*:</span>
-            <br>
-            <input class="form__input-text" type="tel" name="number" placeholder="Номер, пожалуйста">
-          </label>
-          <label class="form__label">
-            <span class="form__user-data">электронная почта*:</span>
-            <br>
-            <input class="form__input-text" type="email" name="mail" placeholder="Введите почту*">
-          </label>
-        </fieldset>
+        <div class="form__wrapper">
+          <fieldset class="form__fieldset">
+            <legend class="form__legend">Представьтесь:</legend>
+            <ul class="form__list">
+              <li class="form__input-wrapper">
+                <label for="input-text__name-label" class="form__label">
+                  <span class="form__user-data">имя*:</span>
+                  <br>
+                  <input id="input-text__name-label" class="form__input-text" type="text" name="name"
+                    placeholder="Введите ваше имя *" required>
+                </label>
+              </li>
+              <li class="form__input-wrapper">
+                <label for="input-text__surname-label" class="form__label">
+                  <span class="form__user-data">Фамилия*:</span>
+                  <br>
+                  <input id="input-text__surname-label" class="form__input-text" type="text" name="surname"
+                    placeholder="Укажите фамилию *" required>
+                </label>
+              </li>
+              <li class="form__input-wrapper">
+                <label for="input-text__patronymic-label" class="form__label">
+                  <span class="form__user-data">отчество*:</span>
+                  <br>
+                  <input id="input-text__patronymic-label" class="form__input-text" type="text" name="patronymic"
+                    placeholder="Ну и отчество тоже">
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <!--Контактная пользвателя-->
+          <fieldset class="form__fieldset">
+            <legend class="form__legend">контактная информация</legend>
+            <label class="form__label">
+              <span class="form__user-data">контактный телефон*:</span>
+              <br>
+              <input class="form__input-text" type="tel" name="number" placeholder="Номер, пожалуйста">
+            </label>
+            <label class="form__label">
+              <span class="form__user-data">электронная почта*:</span>
+              <br>
+              <input class="form__input-text" type="email" name="mail" placeholder="Введите почту*">
+            </label>
+          </fieldset>
+        </div>
         <!--Радиокнопки-->
         <fieldset class="form__fieldset">
           <legend class="form__legend">Ваше общее впечатление:</legend>
@@ -101,21 +103,21 @@
               <label class="form__label">
                 <input class="visually-hidden form__input-radio" type="radio" name="impression"
                   value="positive" checked>
-                <span class="radio-impression">Скорее положительное</span>
+                <span class="form__radio-impression">Скорее положительное</span>
               </label>
             </li>
             <li class="form__wrapper-impression">
               <label class="form__label">
                 <input class="visually-hidden form__input-radio" type="radio" name="impression"
                   value="negative">
-                <span class="radio-impression">Скорее отрицательное</span>
+                <span class="form__radio-impression">Скорее отрицательное</span>
               </label>
             </li>
             <li class="form__wrapper-impression">
               <label class="form__label">
                 <input class="visually-hidden form__input-radio" type="radio" name="impression"
                   value="no-answer">
-                <span class="radio-impression">Затрудняюсь ответить</span>
+                <span class="form__radio-impression">Затрудняюсь ответить</span>
               </label>
             </li>
           </ul>
@@ -128,35 +130,35 @@
               <label class="form__label">
                 <input class="visually-hidden form__input-checkbox" type="checkbox" name="bridge"
                   checked>
-                <span class="checkbox-text control-mark">Мост Дьявола</span>
+                <span class="form__checkbox-text form__control-mark">Мост Дьявола</span>
               </label>
             </li>
             <li class="form__wrapper-checkbox">
               <label class="form__label">
                 <input class="visually-hidden form__input-checkbox" type="checkbox"
                   name="mountain" checked>
-                <span class="checkbox-text control-mark">Гора-Колокол</span>
+                <span class="form__checkbox-text form__control-mark">Гора-Колокол</span>
               </label>
             </li>
             <li class="form__wrapper-checkbox">
               <label class="form__label">
                 <input class="visually-hidden form__input-checkbox" type="checkbox"
                   name="slide-park">
-                <span class="checkbox-text control-mark">Слайд-парк</span>
+                <span class="form__checkbox-text form__control-mark">Слайд-парк</span>
               </label>
             </li>
             <li class="form__wrapper-checkbox">
               <label class="form__label">
                 <input class="visually-hidden form__input-checkbox" type="checkbox"
                   name="red-rocks">
-                <span class="checkbox-text control-mark">Красные скалы</span>
+                <span class="form__checkbox-text form__control-mark">Красные скалы</span>
               </label>
             </li>
           </ul>
         </fieldset>
         <!--Поле для ввода-->
         <fieldset class="form__fieldset">
-          <legend class="form__legend">опишите свои эмоции</legend>
+          <legend class="form__legend">опишите свои эмоции:</legend>
           <label for="text-field-label" class="visually-hidden">поле ввода</label>
           <textarea id="text-field-label" class="description__text inventory-field" name="description-user"
             placeholder="Опишите подробно все свои восторги "></textarea>
